@@ -1,0 +1,96 @@
+.loginForm{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.loginImage{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.loginImage>img{
+height: 400px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    width: 30%;
+}
+
+.loginContainer{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    height: 250px;
+}
+
+.loginContainer>label{
+    margin-bottom: 10px;
+    text-decoration: none !important;
+    color:#000;
+}
+
+.text{
+    text-decoration: none !important;
+}
+
+.loginContainer>input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.loginContainer>button{
+    background-color:  #0b69ff;
+    padding: 10px;
+    color: #fff;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    border: none;
+    border-radius: 6px;
+}
+
+.credentials{
+    width: 100%;
+    padding-top: 10px;
+}
+
+.credentials>h6{
+    margin-bottom: 0px;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.credentials>p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+.main{
+    text-decoration: none;
+}
+
+.span{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100% !important;
+    text-align: center;
+    color: red;
+}
